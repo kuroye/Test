@@ -1,0 +1,150 @@
+.circle{
+  border-radius: 50%;
+}
+.circle2{
+  border-radius: 20%;
+}
+.aitu{
+    position: relative;
+    top: 135px;
+    left: 400px;
+}
+.ins{
+    position: relative;
+    top: 22px;
+    left: 800px;
+}
+.art{
+  position: relative;
+    bottom: 90px;
+    left: 1200px;
+}
+.float{
+  float: right;
+  clear: left;
+}
+
+  button{
+     align-self: center;
+     background-color: #ffb833;
+     border-radius: 10px;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-name: twinkle;
+  }
+  button:hover{
+    animation-name: button-background-color;
+    animation-duration: 2s;
+  }
+  @keyframes button-background-color {
+    100% {
+      background-color: #ffe4b3;
+    }
+  }
+  @keyframes twinkle {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  #center{
+    text-align: center;
+  }
+
+.balls {
+  border-radius: 50%;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  top: 100%;
+  animation-name: boom;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#purple {
+  background: purple;
+  left: 5%;
+  animation-timing-function: linear;
+}
+#blue {
+  background: blue;
+  left: 5%;
+  animation-timing-function: ease-out;
+}
+
+@keyframes boom {
+  50% {
+    top: 15%;
+  }
+}
+
+
+
+.green{
+  background-color: #00A6A0;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 410px;
+  top: 216px;
+}
+.lightgreen{
+  background-color: #D0E8D3;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.white{
+  background-color: #F8F8F8;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 210px;
+  bottom: 216px;
+}
+
+.red{
+  background-color: #F07886;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 150px;
+  left: 1400px;
+}
+.lightyellow{
+  background-color: #F9FAF5;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 1200px;
+  bottom: 350px;
+}
+.grey{
+  background-color: #E9E9E9;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 550px;
+  left: 1000px;
+}
+
+.wlop{
+  height: 100px;
+  width: 100px;
+  border: solid;
+  border-width: 20px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #FF896B;
+  border-radius: 20%;
+}
+
+iframe{
+  display: inline-block;
+}
+.video{
+  position: relative;
+  left: 500px;
+  bottom: 200px;
+}
