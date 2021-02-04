@@ -4,20 +4,14 @@
 .circle2{
   border-radius: 20%;
 }
-.aitu{
-    position: relative;
-    top: 135px;
-    left: 400px;
-}
-.ins{
-    position: relative;
-    top: 22px;
-    left: 800px;
-}
-.art{
+.middle{
   position: relative;
-    bottom: 90px;
-    left: 1200px;
+  top: 150px;
+  left: 200px;
+}
+.moreAboutMe{
+  position: relative;
+  top: 300px;
 }
 .float{
   float: right;
@@ -63,12 +57,12 @@
   animation-iteration-count: infinite;
 }
 #purple {
-  background: purple;
+  background: black;
   left: 5%;
   animation-timing-function: linear;
 }
 #blue {
-  background: blue;
+  background: white;
   left: 5%;
   animation-timing-function: ease-out;
 }
@@ -79,54 +73,18 @@
   }
 }
 
-
+h4{
+  font-family:'Raleway', sans-serif;
+}
 
 .green{
   background-color: #00A6A0;
-  width: 200px;
-  height: 200px;
-  position: relative;
-  left: 410px;
-  top: 216px;
 }
 .lightgreen{
   background-color: #D0E8D3;
-  width: 200px;
-  height: 200px;
-  position: relative;
 }
 .white{
   background-color: #F8F8F8;
-  width: 200px;
-  height: 200px;
-  position: relative;
-  left: 210px;
-  bottom: 216px;
-}
-
-.red{
-  background-color: #F07886;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  bottom: 150px;
-  left: 1400px;
-}
-.lightyellow{
-  background-color: #F9FAF5;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 1200px;
-  bottom: 350px;
-}
-.grey{
-  background-color: #E9E9E9;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  bottom: 550px;
-  left: 1000px;
 }
 
 .wlop{
